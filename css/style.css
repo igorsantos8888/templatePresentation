@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    background-color: #1C1E53;
+    color: #fff;
+}
+
+.header {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.menu-link {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-link ul, .menu-link li {
+    list-style: none;
+}
+
+.menu-link ul {
+    display: flex;
+}
+
+.menu-link li a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 32px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.menu-btn {
+    padding: 16px 48px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    margin-left: 48px;
+    border-radius: 40px;
+}
+
+.menu-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-central {
+    background-color: #1C1E53;
+}
+
+.menu-central-content {
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    height: calc(100vh - 100px);
+}
+
+.menu-central-left, .menu-central-right {
+    margin-top: 120px;
+}
+
+.menu-central-left {
+    margin-right: 60px;
+}
+
+.menu-central-left h2 {
+    font-size: 45px;
+    line-height: 74px;
+    color: #fff;
+}
+
+.menu-central-left p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 24px;
+    color: #fff;
+}
+
+.menu-central-btn {
+    display: flex;
+    margin-top: 48px;
+}
+
+.view-work a {
+    padding: 16px 56px;
+    background-color: #FCD980;
+    text-decoration: none;
+    border-radius: 41px;
+    color: #000;
+    margin-right: 40px;
+}
+
+.view-princing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.view-princing a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 16px;
+}
+
+/** -------- Section What ew do -------- */
+
+.what-we-do {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.what-we-do-content {
+    display: flex;
+    margin-top: 130px;
+}
+
+.what-we-do-left {
+    width: 405px;
+    height: 185px;
+}
+
+.what-we-do-left h2 {
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    font-weight: 600;
+}
+
+.what-we-do-left p {
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+    color: #282938;
+    margin-top: 16px;
+}
+
+.what-we-do-link {
+    margin-top: 16px;
+}
+
+.what-we-do-link a {
+    text-decoration: none;
+    color: #2405F2;
+    font-size: 18px;
+}
+
+.what-we-do-right {
+    display: flex;
+    width: 656px;
+    height: 405px;
+}
+
+.card1 h4, .card2 h4, .card3 h4, .card4 h4 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 8px;
+
+}
+
+.card2, .card4 {
+    margin-top: 60px;
+}
